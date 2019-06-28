@@ -1,0 +1,41 @@
+:root{
+    font-size:25px;
+}
+body{
+    background-color: blueviolet
+}
+.container-font{
+    text-align: center;
+    padding-top: 10%;
+    color: blanchedalmond;
+
+
+}
+.container{
+    margin: 5vw;
+}
+.container-item{
+    background-color: brown;
+
+}
+@media screen and (min-width:768px){
+    .container-item{
+        height: 60vw;
+        background-color: darkkhaki;
+    }
+    .container-font{
+        font-size: 2rem;
+        color: black;
+    }
+}
+@media screen and (min-width:480px) and (max-width:767px){
+        .container-item{
+            height: 50vw;
+            background-color: cornflowerblue;
+        }
+        .container-font{
+            font-size: 1.5rem;
+            color:red;
+        }
+
+}
